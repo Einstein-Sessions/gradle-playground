@@ -14,7 +14,9 @@
     
 ## Basic Gradle Tasks
 
-### What is a Task?
+### Writing Simple Tasks
+
+#### What is a Task?
 - Code that Gradle executes
     - Tasks have a lifecycle
         - Initialisation phase

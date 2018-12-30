@@ -5,9 +5,9 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
-project.task("Task 1")
-task("Task 2")
-task "Task 3"
+project.task("Task1")
+task("Task2")
+task "Task3"
 task Task4
 Task4.description = "Task 4 Description"
 
