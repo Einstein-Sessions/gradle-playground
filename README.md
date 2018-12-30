@@ -42,3 +42,23 @@ so that they are more meaningful when are using them.
 `Task4.description = "Task 4 Description"`
 
 and execute `gradle tasks --all`
+
+### Running Tasks
+
+* If you want to run a task you can execute: `gradle task4`.
+* Of course the task will not have/do anything as there are no actions
+assigned to it
+* All tasks have a method called `doLast()` which we pass a groovy closure.
+* So if we add:
+
+```groovy
+Task4.doLast { println "This is Task 4"}
+```
+and execute:
+
+```bash
+gradle task4
+```
+
+this will present an output on the console when you execute the gradle task `Task4`.
+* There are other ways to do this
