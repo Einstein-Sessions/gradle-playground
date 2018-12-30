@@ -61,4 +61,13 @@ gradle task4
 ```
 
 this will present an output on the console when you execute the gradle task `Task4`.
-* There are other ways to do this
+* There are other ways to do this: 
+
+```groovy
+Task3 << { println "This is Task 3"}
+```
+and execute:
+
+```bash
+gradle task3
+```
